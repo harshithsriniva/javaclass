@@ -1,6 +1,6 @@
 package controller;
 
-import com.sun.org.apache.xpath.internal.functions.FuncStartsWith;
+
 
 public class evenodd {
     public static void main(String argc[]) {
@@ -45,6 +45,16 @@ public class evenodd {
             else if(values.endsWith("h")){
                 System.out.println("Yes its end with h");
             }
+        else if(values.endsWith("a")){
+            System.out.println("Yes its end with h");
+        }
+        else if(values.endsWith("b")){
+            System.out.println("Yes its end with h");
+        }
+        else if(values.endsWith("c")){
+            System.out.println("Yes its end with h");
+        }
+
             else{
                 System.out.println("Nothing is correct");
             }
